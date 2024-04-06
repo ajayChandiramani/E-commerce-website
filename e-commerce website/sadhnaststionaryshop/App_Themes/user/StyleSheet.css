@@ -1,0 +1,486 @@
+﻿body {
+    background-image: linear-gradient(135deg,#ce9ffc 10%,#7367f0 100%);
+    background-image: linear-gradient(to right,#cc95c0 0%,#dbd4b4 51%,#cc95c0 100%);
+    background-image: linear-gradient(to right,#7303c0,#ec38bc,#fdedd9);
+    background-image: linear-gradient(to right,#ef32d9,#89fffd);
+    margin: 0px;
+}
+
+.name {
+    color: white;
+    background-color: black;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    border-radius: 30px;
+}
+
+.menuitem {
+    border-radius: 10px;
+    border: 1px solid #2874F0;
+    /*box-shadow:3px 3px 10px black;
+    color:black;*/
+    background-color: #2874F0;
+    font-size: 18px;
+}
+
+.selectedmenu {
+    box-shadow: 3px 3px 10px black;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid #2874F0;
+    /*box-shadow:3px 3px 10px black;
+    color:black;*/
+    background-color: #2874F0;
+    font-size: 18px;
+}
+
+.catimg {
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid white;
+    box-shadow: 3px 3px 5px black;
+}
+
+.tmp {
+    margin-left: 60px;
+}
+
+.performdiv {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+    .performdiv:hover {
+        box-shadow: 10px 10px 40px black;
+        background-image: linear-gradient(135deg,#ce9ffc 10%,#7367f0 100%);
+        transition:10s ease-in-out;
+        border-radius: 20px;
+    }
+
+.buynowbtn {
+    background-color: #fb641b;
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    font-family: 'Comic Sans MS';
+    border: 1px solid black;
+    color: white;
+}
+
+.addcartbtn {
+    background-color: royalblue;
+    height: 30px;
+    width: 120px;
+    font-size: 18px;
+    font-family: 'Comic Sans MS';
+    border: 1px solid black;
+    color: #fb641b;
+}
+
+.wishlistbtn {
+    background-color: #120056;
+    height: 30px;
+    border-radius: 5px;
+    width: 170px;
+    font-size: 18px;
+    font-family: 'Comic Sans MS';
+    border: 1px solid black;
+    color: white;
+}
+
+.userloginmain {
+    height: 500px;
+    margin-left: 350px;
+    margin-top: 50px;
+    width: 800px;
+}
+
+.userlogininnerdiv {
+    background-color: #2874f0;
+    height: 500px;
+    box-shadow: 10px 10px 30px black;
+    width: 300px;
+    float: left;
+}
+
+.userlogincontent {
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 30px black;
+    padding-top: 50px;
+    float: right;
+    width: 500px;
+    height: 450px;
+    overflow: scroll;
+}
+
+.userlogintxt {
+    border: 0px solid white;
+    background-color: whitesmoke;
+    border-bottom: 2px solid black;
+    font-size: 22px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    width: 300px;
+}
+
+    .userlogintxt:focus {
+        border-bottom: 4px solid black;
+        border-bottom-color: royalblue;
+        transition: all 0.3s ease;
+        color: royalblue;
+        font-size: 18px;
+        transform: translateY(100%);
+    }
+
+.userloginbtn {
+    margin-left: 100px;
+    width: 300px;
+    background-color: #fb641b;
+    height: 40px;
+    font-size: 22px;
+    color: white;
+}
+
+.lbl1 {
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.cap {
+    height: 30px;
+    border: 0px solid white;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.userloginlink {
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.registerlink {
+    font-size: 17px;
+    margin-left: 180px;
+}
+
+.txtajay {
+    color: white;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+.registertxt {
+    border: 0px solid white;
+    background-color: whitesmoke;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    margin-left: 70px;
+    width: 400px;
+}
+
+.validationct {
+    margin-left: 70px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: pink;
+}
+
+.registertxt:focus {
+    border-bottom: 4px solid black;
+    border-bottom-color: royalblue;
+    transition: all 0.3s ease;
+    color: royalblue;
+    font-size: 18px;
+    transform: translateY(20%);
+}
+
+.registerrd {
+    margin-left: 70px;
+}
+
+.registercontent {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px black;
+    padding-top: 50px;
+    margin-left: 390px;
+    width: 700px;
+    height: 1000px;
+    box-shadow: 10px 10px 30px black;
+}
+/*buyproduct*/
+.buyproductimgdiv {
+    float: left;
+    background-color: whitesmoke;
+    width: 500px;
+    margin-top: 30px;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 60px black;
+}
+
+.proimg {
+    margin-top: 5px;
+    height: 400px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.addtocartbtn {
+    margin-top: 10px;
+    float: left;
+    margin-left: 80px;
+    width: 165px;
+    height: 50px;
+    background-color: #ff9f00;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.buybtn {
+    float: right;
+    margin-right: 80px;
+    width: 165px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #fb641b;
+    color: white;
+    border: none;
+    font-size: 22px;
+}
+
+.buyproductinfodiv {
+    float: right;
+    background-color: whitesmoke;
+    width: 800px;
+    height: 500px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border-left: 1px solid #808080;
+    box-shadow: 10px 10px 20px black;
+}
+
+.contlbl {
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    margin-left: 30px;
+    color: royalblue;
+}
+
+.continfolbl {
+    font-size: 25px;
+    font-family: Verdana;
+}
+/*finalbuy...*/
+.finalbuyquanbtn {
+    width: 30px;
+    color: white;
+    height: 30px;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: royalblue;
+    border: 1px solid black;
+}
+
+.productdecri {
+    margin-top: 20px;
+    margin-left: 1010px;
+    position: absolute;
+}
+
+.finaluserinfobuy {
+    height: 200px;
+    width: 700px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.jjj {
+    border-radius: 50px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 30px black;
+}
+
+.finalbuyheader {
+    height: 30px;
+    width: 700px;
+    background-color: #2874f0;
+    color: white;
+    font-size: 22px;
+}
+
+.displayviews {
+    display: inline-block;
+    height: 60px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: #2874f0;
+    color: white;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-size: 22px;
+}
+
+.txt {
+    margin-left: 30px;
+}
+
+.digit {
+    display: inline-block;
+    background-color: white;
+    margin-left: 30px;
+    font-size: 20px;
+    color: #2874f0;
+    margin-top: 5px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.naamemo {
+    margin-left: 50px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.finalbuyloginfea {
+    float: right;
+    margin-top: -140px;
+    height: 170px;
+    width: 400px;
+    color: #2874f0;
+}
+
+.finalproimg {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.finaluserinfobuyview3 {
+    padding-bottom: 10px;
+    width: 700px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.finalprodetail {
+    float: right;
+    width: 400px;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.finalbuyradio {
+    margin-left: 30px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.finalbuypanel1 {
+}
+
+.uniquebuybtn {
+    width: 165px;
+    height: 50px;
+    margin-top: -50px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: #fb641b;
+    color: white;
+    border: none;
+    font-size: 22px;
+}
+/*########myorder########*/
+.myordermain {
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.myorderimg {
+    height: 270px;
+    width: 270px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: pink;
+    float: left;
+}
+
+.wishlistimg {
+    border-radius: 20px;
+}
+
+.myordercont {
+    display: inline-block;
+    margin-left: 20px;
+    width: 1100px;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.mycarbuybtn {
+    margin-left: 150px;
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #fb641b;
+    color: white;
+    border: none;
+    font-size: 22px;
+}
+
+.cartbuybtn {
+    width: 165px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #fb641b;
+    color: white;
+    border: none;
+    font-size: 22px;
+}
+
+.scrollercat {
+    overflow: scroll;
+}
+
+.allcate {
+    width: 100%;
+    overflow: auto;
+}
+
+.allmain {
+    width: 1000px;
+    display: inline-block;
+    position: absolute;
+}

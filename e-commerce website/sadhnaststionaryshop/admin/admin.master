@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"   CodeFile="admin.master.cs" Inherits="admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 41px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="name">
+            Sadhana Stationary Shop
+        </div>
+        <br />
+        
+            <table style="width:100%; height:40px; color: #FFFFFF; background-color: #2874F0; text-align: center; border-radius:10px;">
+                <tr>
+                    <td style="margin-left: 80px" class="auto-style1">
+                        <asp:LinkButton ID="LinkButton1"  runat="server" Font-Underline="False" ForeColor="White" style="font-weight: 700; border-radius:15px; font-size: large" OnClick="LinkButton1_Click" Height="22px" Width="130px" PostBackUrl="~/admin/category.aspx" CausesValidation="False">Add Category</asp:LinkButton>
+                    </td>
+                    <td class="auto-style1">
+                        <asp:LinkButton ID="LinkButton2" runat="server" Font-Underline="False" ForeColor="White" style="font-weight: 700; border-radius:15px; font-size: large" Height="22px" OnClick="LinkButton2_Click" Width="100px" CausesValidation="False" PostBackUrl="~/admin/item.aspx">Add Item</asp:LinkButton>
+                    </td>
+                    <td class="auto-style1">
+                        <asp:LinkButton ID="LinkButton3" runat="server" Font-Underline="False" ForeColor="White" style="font-weight: 700;border-radius:15px; font-size: large" OnClick="LinkButton3_Click" CausesValidation="False" PostBackUrl="~/admin/edititem.aspx">Edit Item</asp:LinkButton>
+                    </td>
+                    <td class="auto-style1">
+
+                        <asp:LinkButton ID="LinkButton15" runat="server" Font-Underline="False" ForeColor="White" style="font-weight: 700; border-radius:15px; font-size: large" OnClick="LinkButton15_Click" CausesValidation="False" PostBackUrl="approveorder.aspx">Approve Order</asp:LinkButton>
+
+                    </td>
+                    <td class="auto-style1">
+                        <asp:LinkButton ID="LinkButton12" runat="server" Font-Underline="False" ForeColor="White" style="font-weight: 700; border-radius:15px; font-size: large" OnClick="LinkButton12_Click" CausesValidation="False" PostBackUrl="manageorder.aspx">Manage Order</asp:LinkButton>
+                    </td>
+                    <td class="auto-style1">
+                        <asp:LinkButton ID="LinkButton5" runat="server" Font-Underline="False" ForeColor="White" style="font-weight: 700; border-radius:15px; font-size: large" OnClick="LinkButton12_Click" CausesValidation="False" PostBackUrl="report.aspx">View Report</asp:LinkButton>
+                    </td>
+                    <td class="auto-style1">
+                        <asp:LinkButton ID="LinkButton13" runat="server" Font-Underline="False" ForeColor="White" style="font-weight: 700; border-radius:15px; font-size: large" OnClick="LinkButton13_Click" CausesValidation="False">Feedback</asp:LinkButton>
+                    </td>
+                    <td class="auto-style1">
+                        <asp:LinkButton ID="LinkButton16" runat="server" Font-Underline="False" ForeColor="White" style="font-weight: 700; border-radius:15px;   font-size: large" OnClick="LinkButton16_Click" CausesValidation="False">Change Password</asp:LinkButton>
+                    </td>
+                    <td class="auto-style1">
+                        <asp:LinkButton ID="LinkButton4" runat="server" Font-Underline="False" ForeColor="White" style="font-weight: 700; border-radius:15px;   font-size: large" OnClick="LinkButton16_Click" CausesValidation="False">Add New Admin</asp:LinkButton>
+                    </td>
+                    <td class="auto-style1">
+                        <asp:Button ID="Button1" runat="server" style="color: #FFFFFF; font-weight: 700; font-size: medium; background-color: #FF0000" Text="Log Out" OnClick="Button1_Click1" CausesValidation="False" Height="37px" Width="105px" />
+                    </td>
+                </tr>
+        </table>
+        <br />
+
+    </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        
+        </asp:ContentPlaceHolder>
+        
+    </form>
+</body>
+</html>

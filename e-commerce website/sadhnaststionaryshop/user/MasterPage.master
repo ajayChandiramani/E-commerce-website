@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"   CodeFile="MasterPage.master.cs" Inherits="user_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body>
+    <form id="form1" runat="server">
+        
+    <div>
+        <div class="name">
+            Sadhana Stationary Shop
+        </div>
+        <table style="width:100%; height:40px; color: #FFFFFF; background-color: #2874F0; text-align: center; border-radius:10px;" align="center">
+                <tr>
+                    
+                    <td style="margin-left: 80px">
+                        <asp:Image ID="Image1" CssClass="logo" runat="server" Height="40px" ImageUrl="~/shop.png" Width="40px" />
+                    </td>
+                    <td>
+                        <asp:Button ID="Button8" runat="server" Text="Home" Height="30px" Width="110px" CssClass="menuitem" style="font-weight: bold" PostBackUrl="~/user/Default.aspx" CausesValidation="False" />
+                    </td>
+                    
+                    <td>
+                        <asp:Button ID="Button1" runat="server" Text="Login" Height="30px" Width="110px" CssClass="menuitem" style="font-weight: bold" PostBackUrl="~/user/login.aspx" />
+                    </td>
+                    <td>
+                        <asp:Button ID="Button2" runat="server" Text="My Cart" Height="30px" Width="110px" CssClass="menuitem" style="font-weight: bold" PostBackUrl="mycart.aspx" />
+                    </td>
+                    <td>
+
+                        <asp:Button ID="Button3" runat="server" Text="My Wishlist" Height="30px" Width="110px" CssClass="menuitem" style="font-weight: bold" PostBackUrl="wishlist.aspx" />
+
+                    </td>
+                    <td>
+                        <asp:Button ID="Button4" runat="server" Text="My Account" Height="30px" Width="110px" CssClass="menuitem" style="font-weight: bold" />
+                    </td>
+                    <td>
+                        <asp:Button ID="Button5" runat="server" Text="About Us" Height="30px" Width="110px" CssClass="menuitem" style="font-weight: bold" />
+                    </td>
+                    <td>
+                        <asp:Button ID="Button6" runat="server" Text="My order" Height="30px" Width="110px" CssClass="menuitem" style="font-weight: bold" CausesValidation="False" PostBackUrl="myorder.aspx" />
+                    </td>
+                    <td>
+                        <asp:Button ID="Button7" runat="server" Text="Login As Admin" Height="30px" Width="150px" CssClass="menuitem" style="font-weight: bold" PostBackUrl="~/admin/Default.aspx" />
+                    </td>
+                    <td style="margin-left: 40px">                        
+                        <asp:Button ID="Button9" runat="server" style="color: #FFFFFF; font-weight: 700; font-size: medium; background-color: #FF0000" Text="Log Out" OnClick="button9_click" CausesValidation="False" Height="37px" Width="105px" />
+                    
+                    </td>
+                </tr>
+        </table>
+        <br />
+
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,487 @@
+﻿body {
+    background-image: linear-gradient(135deg,#ce9ffc 10%,#7367f0 100%);
+    background-image: linear-gradient(to right,#cc95c0 0%,#dbd4b4 51%,#cc95c0 100%);
+      background-image: linear-gradient(to right,#ef32d9,#89fffd);
+    /*background-image:linear-gradient(90deg,#00dbde,#Fc00ff 100%);
+    background-image:linear-gradient(to right,#16bffd,#cb3066 100%);*/
+}
+
+.name {
+    color: white;
+    background-color: black;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.tt1 {
+    border-radius: 10px;
+    width: 250px;
+    height: 25px;
+    font-size: 21px;
+    border: 2px solid blue;
+}
+
+.btn1 {
+    border-radius: 15px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+/*category*/
+.maindiv {
+    border: 1px solid black;
+    margin-left: 300px;
+    width: 900px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 70px;
+}
+
+.grid {
+    font-family: 'Comic Sans MS';
+    margin-left: 200px;
+}
+
+.itemdiv {
+    margin-left: 35%;
+    border-radius: 20px;
+    width: 400px;
+    padding-left: 20px;
+    background-image: linear-gradient(62deg,#4158d0 0%,#c850c0 46%, #ffcc70 100%);
+}
+
+.prodimg {
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px black;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+
+.allpro {
+    background-color: red;
+}
+
+.performdiv {
+    margin-right: 50px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    margin: 50px;
+    box-shadow: 15px 15px 5px black;
+}
+.edit {
+}
+
+.logindiv {
+    background-image: linear-gradient(to right,#7303c0,#ec38bc,#fdedd9);
+    margin-top: 40px;
+    height: 580px;
+    width: 600px;
+    padding-top: 40px;
+    border-radius: 50px;
+    margin-left: 450px;
+    box-shadow: 10px 10px 20px #4040a1;
+}
+
+.lbl1 {
+    font-family: 'Comic Sans MS';
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.login {
+    font-size: 35px;
+    font-family: 'Courier New';
+    margin-left: 100px;
+}
+
+.ajay {
+    background-image: linear-gradient(to left,#ce9ffc 5%,#7367f0 100%);
+    border: 1px solid black;
+    box-shadow: 10px 10px 20px black;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50px;
+}
+
+.usernametxt {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0px solid white;
+    margin-left: 500px;
+    font-size: 20px;
+}
+
+    .usernametxt:focus {
+        border-bottom: 4px solid #5fa8d3;
+        border-right: 4px solid #5fa8d3;
+        transition: all 0.3s ease;
+    }
+
+
+
+.loginbutton {
+    background-color: #4040a1;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+    .loginbutton:hover {
+        border: 3.5px solid white;
+        transition: all 0.2s ease-in-out;
+    }
+
+.vieworde_main {
+    width: 450px;
+    background-image: linear-gradient(to right,#dae2f8,#d6a4a4);
+    background-color: #2874F0;
+    box-shadow: 10px 10px 30px black;
+    margin: 20px;
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.vieworder_header {
+    height: 120px;
+    border-bottom: 2px solid #2874F0;
+    border-radius: 10px;
+}
+
+.vieworder_orderino {
+    display: inline-block;
+    width: 270px;
+    margin-left: 20px;
+    margin-top: 5px;
+    float: left;
+}
+
+.vieworder_custimg {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 50px;
+}
+
+.vieworder_orderinfoimg {
+    width: 120px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.vieworder_proimg {
+    border-radius: 50px;
+}
+
+.vieworder_orderinfo {
+    margin-left: 140px;
+    margin-top: 25px;
+}
+
+.vieworderbtn {
+    border-radius: 10px;
+    margin-left: 50px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.vieworder_footer {
+    border-top: 2px solid #2874F0;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 70px;
+}
+
+.resontxt {
+    border: 0px solid white;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    resize: none;
+}
+/*item    page*/
+.itemmain {
+    margin-top: -30px;
+    height: 750px;
+    width: 1300px;
+    background-color: white;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+.itemaddimg {
+    float: left;
+    width: 450px;
+    border: 1px solid #999999;
+    margin-left: 50px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.itempageimage {
+    margin-top: 30px;
+    height: 250px;
+    width: 250px;
+    border: 1px dashed black;
+}
+
+.uploadbtn {
+    margin-top: 10px;
+    background-color: #fb641b;
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    font-family: 'Comic Sans MS';
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+}
+
+.itempageinfotxt {
+    border: 0px solid white;
+    border-bottom: 2px solid black;
+    font-size: 22px;
+    font-size: 18px;
+    resize: none;
+    margin-left: 20px;
+    resize: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+    .itempageinfotxt:focus {
+        border-bottom: 4px solid black;
+        border-bottom-color: royalblue;
+        transition: all 0.3s ease;
+        color: royalblue;
+        font-size: 18px;
+        transform: translateY(60%);
+    }
+
+.itemaddimfo {
+    height: 670px;
+    width: 600px;
+    float: right;
+    margin-right: 50px;
+    border: 1px solid #999999;
+    border-radius: 20px;
+}
+
+.itempublishbtn {
+    background-color: #2874F0;
+    height: 40px;
+    width: 140px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.validationct {
+    margin-left: 20px;
+    display: inline-block;
+    background-color: pink;
+}
+
+
+
+/*reportpage#################*/
+.reportimg {
+    border-radius: 50px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px black;
+}
+
+.viewsalesrepbtn {
+    height: 40px;
+    width: 180px;
+    margin-left: 800px;
+    margin-bottom: 10px;
+    background-color: #47C9AF;
+    font-size: 18px;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.generatereportbtn {
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 50px;
+    height: 40px;
+    width: 180px;
+    background-color: #47C9AF;
+    font-size: 18px;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.reportmain {
+    width: 1100px;
+    background-color: white;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+
+.reportgridview {
+    border: 1px solid black;
+    margin-left: 100px;
+    box-shadow: 10px 10px 40px black;
+}
+
+.reportchartbar {
+    background-color: #2874F0;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px white;
+}
+
+.reportchartbardate {
+    width: 100px;
+    border-right: 2px solid black;
+    color: white;
+    font-size: 20px;
+}
+
+.salesreportmain {
+    margin-left: 200px;
+    background-color: #393f4d;
+    position: absolute;
+    border: 1px solid yellow;
+    box-shadow: 5px 5px 50px black;
+    padding: 20px;
+    width: 1100px;
+    height: 450px;
+    overflow: scroll;
+    border-radius: 20px;
+}
+/*manageorder*/
+.manageordergrid {
+    box-shadow: 1px 1px 40px black;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.manageorderbtn {
+    height: 40px;
+    width: 120px;
+    margin-left: 10px;
+    background-color: royalblue;
+    border: 1px solid white;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+}
+
+    .manageorderbtn:focus {
+        box-shadow: 0px 0px 0px black;
+    }
+
+.manageordercell {
+    border-right:1px solid black;
+    box-shadow:10px 10px 50px black;
+    font-size:30px;
+}
+.manageordercell:hover {
+    
+    background-color:#246B61;
+    color:white;
+    transition:1s ease-in-out;
+}
+/*default.aspx(login )##########*/
+.userloginmain {
+    height: 550px;
+    margin-left: 300px;
+    margin-top: 100px;
+    width: 900px;
+}
+.userlogininnerdiv {
+    background-color: #2874f0;
+    height:550px;
+    box-shadow: 10px 10px 30px black;
+    width: 350px;
+    float: left;
+}
+
+.userlogincontent {
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 30px black;
+    padding-top: 50px;
+    float: right;
+    width: 550px;
+    height: 500px;
+}
+
+
+.userlogintxt {
+    border: 0px solid white;
+    background-color: whitesmoke;
+    border-bottom: 2px solid black;
+    font-size: 22px;
+    margin-left: 100px;
+    width: 300px;
+}
+
+    .userlogintxt:focus {
+        border-bottom: 4px solid black;
+        border-bottom-color: royalblue;
+        transition: all 0.3s ease;
+        color: royalblue;
+        font-size: 18px;
+        transform: translateY(100%);
+    }
+
+.userloginbtn {
+    margin-left: 100px;
+    width: 300px;
+    background-color: #fb641b;
+    height: 40px;
+    font-size: 22px;
+    color: white;
+}
+.lbl1 {
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.cap {
+    height: 30px;
+    border: 0px solid white;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.txtajay {
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-family:'Comic Sans MS';
+}
+.loginvalidation {
+    margin-left:100px;
+    background-color:pink;
+    color:red;
+    font-size:18px;
+    font-family:'MS Gothic';
+}
